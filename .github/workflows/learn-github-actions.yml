@@ -6,12 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       #----------------------------------------------
-      #       check-out repo and set-up python
+      #       check-out repo
       #----------------------------------------------
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
       #----------------------------------------------
       #  -----  install & configure poetry  -----
       #----------------------------------------------

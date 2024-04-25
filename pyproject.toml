@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "understandinggithubevents"
+name = "LinearAlgebra"
 version = "0.1.0"
 description = ""
 authors = ["asimjalwana <jalwanamohammad@gmail.com>"]
