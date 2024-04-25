@@ -25,7 +25,7 @@ jobs:
       # install dependencies if cache does not exist
       #----------------------------------------------
       - name: Install dependencies
-      - run: poetry install --no-interaction --no-root
+        run: poetry install --no-interaction --no-root
       #----------------------------------------------
       - name: run python hello world
-      - run: python -c 'print("Hello World!")'
+        run: python -c 'print("Hello World!")'
