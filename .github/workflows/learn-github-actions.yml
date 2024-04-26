@@ -24,5 +24,10 @@ jobs:
       - name: Install dependencies
         run: poetry install
       #----------------------------------------------
+      # run tests
+      #----------------------------------------------
+      - name: run tests
+        run: poetry run pytest -v
+      #----------------------------------------------
       - name: run python hello world
         run: python -c 'print("Hello World!")'
