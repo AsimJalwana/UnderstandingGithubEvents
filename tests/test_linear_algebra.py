@@ -1,6 +1,5 @@
 import numpy as np
-from LinearAlgebra.la import find_inverse
-
+from linearalgebraasimjalwana0123.la import find_inverse
 
 def test_invalid_find_inverse():
     assert find_inverse(None) is None
