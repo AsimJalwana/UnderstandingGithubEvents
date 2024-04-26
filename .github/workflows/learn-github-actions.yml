@@ -34,6 +34,6 @@ jobs:
       - name: Config pytest repo
         run:  poetry config repositories.test-pypi https://test.pypi.org/legacy/
       - name: Add pytest token
-        run: poetry config pypi-token.test-pypi  ${{UNDERSTANDINGGITHUBEVENTS }}
+        run: poetry config pypi-token.test-pypi  ${{vars.UNDERSTANDINGGITHUBEVENTS }}
       - name: Build
         run: poetry build
