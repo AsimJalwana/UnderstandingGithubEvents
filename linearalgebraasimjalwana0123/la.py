@@ -6,3 +6,7 @@ def find_inverse(matrix: np.ndarray) -> np.ndarray:
         return None
 
     return np.linalg.inv(matrix)
+
+
+def version():
+    return '0.2.0'

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "linearalgebraasimjalwana0123"
-version = "0.1.0"
-description = ""
+version = "0.2.0"
+description = "Include a new function"
 authors = ["asimjalwana <jalwanamohammad@gmail.com>"]
 readme = "README.md"
 
